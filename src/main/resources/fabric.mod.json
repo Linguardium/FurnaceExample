@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "examplefurnace",
+  "version": "${version}",
+  "name": "FurnaceExample",
+  "description": "Example Furnace",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/examplefurnace/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.examplefurnace.ExampleFurnace"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
