@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "id": "examplefurnace",
   "version": "${version}",
-  "name": "FurnaceExample",
-  "description": "Example Furnace",
+  "name": "CustomFurnace",
+  "description": "Custom Furnace",
   "authors": [
     "Linguardium"
   ],
   "contributors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/examplefurnace/icon.png",
+  "icon": "assets/customfurnace/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "mod.linguardium.examplefurnace.ExampleFurnace"
+      "mod.linguardium.customfurnace.Main"
     ],
     "client": [],
     "server": []
